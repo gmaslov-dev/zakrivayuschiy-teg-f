@@ -1,1 +1,14 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  /* шрифты */
+  --font-family: Inter-Variable, 'Segoe UI', 'San Francisco', 'Ubuntu', sans-serif;
+  --font-family-accent: PressStart2P-Regular, Consolas, Monaco, sans-serif;
+
+  /* веса шрифтов */
+  --fw-title: 700;
+  --fw-text: 400;
+  --fw-accent: 400;
+
+  /* цвета */
+  --bg-color: #fff;
+}

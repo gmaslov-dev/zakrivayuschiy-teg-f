@@ -17,4 +17,18 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+
+  font-family: var(--font-family, sans-serif);
+  font-variation-settings: 'wght' var(--fw-text);
+
+  background-color: var(--bg-color);
+  color: var(--accent-color);
+}
+
+.floppy {
+  width: 40px;
+}
+
+.card__title {
+  font-variation-settings: 'wght' var(--fw-title);
 }
