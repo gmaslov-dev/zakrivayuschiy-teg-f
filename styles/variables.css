@@ -9,6 +9,16 @@
   --fw-text: 400;
   --fw-accent: 400;
 
+  --fs-logo: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --fs-title: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --fs-basic: 1.125rem;
+  --fs-accented: 0.875rem;
+
   /* цвета */
   --bg-color: #fff;
+  --accent-color: #000;
+
+  --bg-image: repeating-linear-gradient(to right, #d3d3d3 0px 2px, transparent 2px 4px), repeating-linear-gradient(#d3d3d3 0px 2px, transparent 2px 4px), linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+
+  --content-inline-size: min(100%, 700px);
 }

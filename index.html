@@ -17,37 +17,47 @@
     <script src="./scripts/set-theme.js"></script>
   </head>
   <body class="page">
-    <header class="header">
+    <header class="header page__section">
+      <div class="logo-group">
+        <span class="logo-group__logo">&lt;/HTML&gt;</span>
+        <h1 class="logo-group__title">Закрывающий тег</h1>
+      </div>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
         <ul class="theme-menu__list">
           <li class="theme-menu__item">
-            <button type="button" data-theme="dark" class="theme-menu__button">
+            <button class="theme-menu__button" type="button" data-theme="dark">
               Темно
             </button>
           </li>
           <li class="theme-menu__item">
             <button
+              class="theme-menu__button"
               type="button"
               data-theme="auto"
               disabled
-              class="theme-menu__button"
             >
               Авто
             </button>
           </li>
           <li class="theme-menu__item">
-            <button type="button" data-theme="light" class="theme-menu__button">
+            <button  class="theme-menu__button" type="button" data-theme="light">
               Светло
             </button>
           </li>
         </ul>
       </nav>
     </header>
-    <main>
-      <h2 class="card__title">
-        Hello World!
-      </h2>
+    <main class="content">
+      <article class="card page__section">
+        <h2 class="card__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
+        <img class="card__img" src="#" alt="#">
+        <div class="card__content">
+          <p class="card__text">Это было самое начало пути. На этом этапе важно было проникнуться основами и настроиться на учёбу. И, возможно, подумать, как новые знания могут повлиять на ваше будущее.</p>
+          <p class="card__text">Место для ваших воспоминаний о начале обучения.</p>
+          <button class="card__button">Like</button>
+        </div>
+      </article>
       <svg class="floppy" ="0 0 40 40">
         <use href="#floppy">
       </svg>
