@@ -303,16 +303,19 @@
 
 .floppy {
   fill: var(--accent-color);
+  display: block;
+  inline-size: 39px;
+  block-size: 39px;
+  
   /*TODO: Добавить базовый! размер */
 }
 
 .floppy_place_footer {
+  --size: 28px;
   position: relative;
   z-index: 1;
   mix-blend-mode: difference;
   fill: var(--btns-element-color);
-
-  --size: 28px;
   inline-size: var(--size);
   block-size: var(--size);
 
@@ -322,8 +325,6 @@
 }
 
 .floppy_place_popup {
-  max-block-size: 39px;
-  min-inline-size: 39px;
   align-self: center;
 }
 
