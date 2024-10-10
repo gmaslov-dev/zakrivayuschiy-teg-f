@@ -22,7 +22,7 @@
     <header class="header page__section bordered">
       <div class="logo-group">
         <span class="logo-group__logo">&lt;/HTML&gt;</span>
-        <h1 class="logo-group__title">Закрывающий тег</h1>
+        <h1 class="logo-group__title">ЗАКРЫВАЮЩИЙ ТЕГ</h1>
       </div>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
@@ -211,7 +211,6 @@
         <h2 class="card__title">«Сейчас я здесь»</h2>
         <div class="card__img-wrapper">
         </div>
-          <!-- <img class="card__img" src="./images/image.png" alt="#"> -->
         <div class="card__content">
           <p class="card__text">Сейчас вы уже очень много знаете о вёрстке. Но это только начало. Во-первых, впереди ещё много материала про «красотищу». Во-вторых, с окончанием курса учёба не заканчивается. Вёрстка — это целый мир. И этот мир постоянно меняется. Познать его полностью не получится, но это тот случай, когда важен сам процесс познания. Ведь часто путь — и есть результат.</p>
           <p class="card__text">Место, чтобы остановиться, подумать и написать, что вы чувствуете в этой точке пути.</p>
@@ -229,8 +228,8 @@
       </article>
     </main>
     <footer class="footer">
-      <button class="button footer__button bordered" onclick="window['dialog-id'].showModal()" 
-      aria-controls="dialog-id">
+      <button class="button footer__button bordered" onclick="window['popup'].showModal()" 
+      aria-controls="popup">
         <svg class="floppy floppy_place_footer" viewBox="0 0 40 40">
           <use href="#floppy">
         </svg>
@@ -241,14 +240,14 @@
       </button>
     </footer>
     <!-- TODO добавить aria-роль -->
-    <dialog id="dialog-id" class="popup bordered">
-      <div class="popup__wrapper">
-        <svg class="floppy floppy_place_popup" viewBox="0 0 39 39">
+    <dialog id="popup" class="popup bordered">
+      <div class="popup__container">
+        <svg class="floppy popup__floppy" viewBox="0 0 39 39">
           <use href="#floppy">
         </svg>
         <h2 class="popup__title">Вставьте дискету, чтобы продолжить</h2>
       </div>
-      <button class="button popup__button bordered" type="button" onclick="window['dialog-id'].close();">
+      <button class="button popup__button bordered" type="button" onclick="window['popup'].close();">
         <span class="button__text">ОК</span>
       </button>
     </dialog>
