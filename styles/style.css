@@ -271,17 +271,13 @@
 }
 
 .card__icon-button {
+  cursor: pointer;
   block-size: 38px;
-  inline-size: 38px;
-
-  border: none;
-  /* padding: 5px 0 0 0; */
+  inline-size: 38px;  
   padding: 2px 0 0 0;
   background-color: transparent;
   border: 2px solid transparent;
-  /* inline-size: 38px; */
   transition: border-color 0.3s ease;
-
 
   &:focus {
     outline: none;
@@ -300,10 +296,14 @@
 
 .like-icon {
   fill: var(--accent-color);
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .floppy {
   fill: var(--accent-color);
+  /*TODO: Добавить базовый! размер */
 }
 
 .floppy_place_footer {
@@ -363,15 +363,15 @@
   max-inline-size: 341px;
   padding: 30px 41px;
 
+  &::backdrop {
+    background-color: rgba(0 0 0 / 0.75);
+  }
+
   @media(width > 375px) {
     max-inline-size: 353px;
     padding: 30px;
   }
 }
-
-/* .popup::backdrop {
-  background-color: rgba(0 0 0 / 0.75);
-} */
 
 .popup__wrapper {
   display: flex;
