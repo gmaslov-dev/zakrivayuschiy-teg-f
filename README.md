@@ -13,4 +13,4 @@
 
 ## Контактная информация
 Автор: [gmaslov](https://github.com/gmaslov-dev)  
-Репозиторий проекта: [Закрывающий тег](https://github.com/gmaslov-dev/zakrivayuschiy-teg-f)
+Репозиторий проекта: https://github.com/gmaslov-dev/zakrivayuschiy-teg-f
