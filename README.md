@@ -1,4 +1,4 @@
-# [Закрывающий тег]()
+# [Закрывающий тег](https://gmaslov-dev.github.io/zakrivayuschiy-teg-f/)
 
 ## О проекте
 
