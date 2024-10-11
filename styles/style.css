@@ -156,35 +156,35 @@
   block-size: 100%;
 }
 
-.card__img_hue-rotate-contrast {
+.card__img_filter_hue-rotate-contrast {
   filter: hue-rotate(1.5turn) contrast(1.3);
 }
 
-.card__img_sepia {
+.card__img_filter_sepia {
   filter: sepia(0.3);
 }
 
-.card__img_blur {
+.card__img_filter_blur {
   filter: blur(2px);
 }
 
-.card__img_opacity {
+.card__img_filter_opacity {
   filter: opacity(0.5);
 }
 
-.card__img_contrast {
+.card__img_filter_contrast {
   filter: contrast(1.1);
 }
 
-.card__img_grayscale {
+.card__img_filter_grayscale {
   filter: grayscale(1);
 }
 
-.card__img_hue-rotate {
+.card__img_filter_hue-rotate {
   filter: hue-rotate(10deg);
 }
 
-.card__img_saturate {
+.card__img_filter_saturate {
   filter: saturate(0.5);
 }
 
