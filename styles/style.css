@@ -304,13 +304,13 @@
 
 /* footer */
 
-.saving {
+.save-action {
   display: flex;
   justify-content: center;
   margin: 50px 0 100px 0;
 }
 
-.saving__button {
+.save-action__button {
   --size: 310px;
 
   display: flex;
@@ -335,7 +335,7 @@
   block-size: 39px;
 }
 
-.floppy_place_saving {
+.floppy_place_save-action {
   --size: 28px;
   position: relative;
   z-index: 1;
