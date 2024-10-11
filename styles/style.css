@@ -115,7 +115,7 @@
 
   &:disabled::before {
     content: "▶";
-    animation: shift 0.5s infinite ease-in-out alternate; 
+    animation: shift 0.5s infinite ease-in-out alternate;
   }
 }
 
@@ -228,7 +228,7 @@
 }
 
 .card__icon-button {
-  border: 2px solid transparent;  
+  border: 2px solid transparent;
   padding: 0;
   background-color: transparent;
   transition: border-color 0.3s ease;
@@ -270,7 +270,6 @@
     content: '';
     position: absolute;
     inset: 0;
-    z-index: -1;
     z-index: 0;
     background-color: var(--accent-color);
     transition: transform 0.5s ease-in-out;
